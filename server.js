@@ -48,11 +48,11 @@ wsServer.on('request', function(request) {
 	var connection = request.accept(null, request.origin);
 	//MYSQL-Connection
 	var connectionMy = mysql.createConnection({
-	  host : 'localhost',
+	  host : 'engine-mluebken.rhcloud.com',
 	  port : 3306,
 	  database: 'EngineX',
-	  user : 'Moritz',
-	  password : 'mor!tz98'
+	  user : 'adminq5wf92g',
+	  password : 'zdrJVYGgQ5kM'
 	});	
 	connectionMy.connect(function(err){//Mysql-Connect
 		if(err != null) {
